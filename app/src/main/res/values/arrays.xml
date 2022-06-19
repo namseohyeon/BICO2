@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_color">
+        <item>기본</item>
+        <item>흰색</item>
+        <item>연두색</item>
+        <item>연핑크베이지색</item>
+    </string-array>
+    <string-array name="my_color_value">
+        <item>#EEECE7</item>
+        <item>#ffffff</item>
+        <item>#D3EBCD</item>
+        <item>#F6E7D8</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>
