@@ -59,6 +59,7 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:textColor="@color/white"
             android:layout_marginBottom="5dp"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -68,6 +69,7 @@
             android:layout_height="wrap_content"
             android:text="로그인"/>
         <Button
+            android:textColor="@color/white"
             android:layout_marginBottom="5dp"
             android:textSize="20dp"
             android:backgroundTint="#FBD409"
@@ -77,6 +79,7 @@
             android:layout_height="wrap_content"
             android:text="kakao 로그인"/>
         <Button
+            android:textColor="@color/white"
             android:layout_marginBottom="5dp"
             android:textSize="20dp"
             android:backgroundTint="#818886"

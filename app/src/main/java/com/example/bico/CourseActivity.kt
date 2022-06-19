@@ -21,9 +21,9 @@ class CourseActivity : AppCompatActivity() {
         binding = ActivityCourseBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
-//        val bgColor = sharedPreferences.getString("color","")
-//        binding.activityContent.setBackgroundColor(Color.parseColor(bgColor))
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
+        val bgColor = sharedPreferences.getString("color","")
+        binding.activityContent.setBackgroundColor(Color.parseColor(bgColor))
 
 
         val Realfragment = realFragment()
@@ -48,11 +48,11 @@ class CourseActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-//    override fun onResume() {
-//        super.onResume()
-//        val bgColor = sharedPreferences.getString("color","")
-//        binding.activityContent.setBackgroundColor(Color.parseColor(bgColor))
-//    }
+    override fun onResume() {
+        super.onResume()
+        val bgColor = sharedPreferences.getString("color","")
+        binding.activityContent.setBackgroundColor(Color.parseColor(bgColor))
+    }
 
 
 }
