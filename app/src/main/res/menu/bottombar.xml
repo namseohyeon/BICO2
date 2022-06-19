@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Bcourse"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/navermap_default_marker_icon_blue"
+        android:title="경로" />
+    <item
+        android:id="@+id/Blocation"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/navermap_default_marker_icon_blue"
+        android:title="위치" />
+    <item
+        android:id="@+id/Bdiary"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/navermap_default_marker_icon_blue"
+        android:title="기록" />
+
+    <item
+        android:id="@+id/Bmybico"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="MY" />
+
+
+</menu>

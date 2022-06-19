@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "344306637868",
+    "project_id": "bico-92bbc",
+    "storage_bucket": "bico-92bbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344306637868:android:b737513eb77ada2cffc589",
+        "android_client_info": {
+          "package_name": "com.example.bico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344306637868-nfnjnoi01hdbv4sv6k635rej1ooqvpqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bico",
+            "certificate_hash": "6b70d156afcb9cec594fbc698b6f87ad0cd47a21"
+          }
+        },
+        {
+          "client_id": "344306637868-3ifqdvgf3bc47qc0ifbvd514ns83vq1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEJ6rnR1E87ihM6BFYtV5YGJLnHYXZoqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344306637868-3ifqdvgf3bc47qc0ifbvd514ns83vq1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

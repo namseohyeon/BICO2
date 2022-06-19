@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="카메라"
+        app:showAsAction="always"
+        android:id="@+id/camera"
+        android:icon="@drawable/camera" />
+    <item
+        android:title="사진"
+        app:showAsAction="always"
+        android:id="@+id/gallery"
+        android:icon="@drawable/picture" />
+
+    <item
+        android:title="저장"
+        app:showAsAction="always"
+        android:id="@+id/save"
+        android:icon="@drawable/mark" />
+
+</menu>
