@@ -25,6 +25,15 @@ class CourseActivity : AppCompatActivity() {
         val bgColor = sharedPreferences.getString("color","")
         binding.activityContent.setBackgroundColor(Color.parseColor(bgColor))
 
+        binding.Bdiary.setOnClickListener{
+            val intent = Intent(this, DiaryActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.Blocation.setOnClickListener{
+            val intent = Intent(this, LocationActivity::class.java)
+            startActivity(intent)
+        }
 
         val Realfragment = realFragment()
         val bundle = Bundle()
@@ -56,5 +65,4 @@ class CourseActivity : AppCompatActivity() {
 
 
 }
-
 

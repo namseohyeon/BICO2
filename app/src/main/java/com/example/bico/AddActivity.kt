@@ -65,13 +65,6 @@ class AddActivity : AppCompatActivity() {
             intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*")
             requestLauncher.launch(intent)
         }
-        else if(item.itemId === R.id.camera){
-//            val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-//            if (takePictureIntent.resolveActivity(packageManager) != null) {
-//                startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE)
-//            }
-
-        }
         else if(item.itemId === R.id.save){
             if(binding.addImgView.drawable != null && binding.addEditView.text.isNotEmpty()){
                 saveStore()

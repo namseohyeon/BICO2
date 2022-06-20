@@ -45,10 +45,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.test.setOnClickListener{
-            val intent = Intent(this, StartActivity::class.java)
-            startActivity(intent)
-        }
         binding.kakaologin.setOnClickListener{
             // 토큰 정보 보기
             UserApiClient.instance.accessTokenInfo { tokenInfo, error ->

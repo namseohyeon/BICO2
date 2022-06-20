@@ -16,6 +16,16 @@ class DiaryActivity : AppCompatActivity() {
         binding = ActivityDirayBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.Bcourse.setOnClickListener{
+            val intent = Intent(this, CourseActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.Blocation.setOnClickListener{
+            val intent = Intent(this, LocationActivity::class.java)
+            startActivity(intent)
+        }
+
         myCheckPermission(this)
         binding.addFab.setOnClickListener{
             if(loginApplication.checkAuth()){

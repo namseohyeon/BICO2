@@ -47,7 +47,7 @@
             android:layout_height="195dp"
             android:layout_marginTop="26dp"
             android:layout_marginLeft="18dp"
-            android:src="@drawable/bicycle"></ImageView>
+            android:src="@drawable/bicycle_icon"></ImageView>
     </RelativeLayout>
 
     <LinearLayout
@@ -73,23 +73,24 @@
             ></EditText>
 
         <Button
-            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
             android:layout_marginBottom="5dp"
-            android:textSize="20dp"
+            android:textSize="30dp"
             android:textStyle="bold"
             android:backgroundTint="#439C7C"
             android:id="@+id/login"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:text="로그인"/>
         <Button
+            android:textColor="@color/white"
             android:layout_marginBottom="5dp"
-            android:textSize="20dp"
+            android:textSize="30dp"
             android:backgroundTint="#818886"
             android:textStyle="bold"
             android:id="@+id/signup"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:text="회원가입"/>
 
     </LinearLayout>

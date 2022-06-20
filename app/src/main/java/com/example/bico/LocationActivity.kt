@@ -1,9 +1,12 @@
 package com.example.bico
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.annotation.NonNull
 import androidx.appcompat.app.AppCompatActivity
+import com.example.bico.databinding.ActivityCourseBinding
+import com.example.bico.databinding.ActivityLocationBinding
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.*
 import com.naver.maps.map.overlay.Marker
@@ -27,7 +30,10 @@ class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_location)
+        //setContentView(R.layout.activity_location)
+        val binding = ActivityLocationBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
         locationSource = FusedLocationSource(this, LOCATION_PERMISSTION_REQUEST_CODE)
 
         var thread = NetworkThread()
@@ -36,6 +42,16 @@ class LocationActivity : AppCompatActivity(), OnMapReadyCallback {
         mapView = findViewById(R.id.map_view)
         mapView.onCreate(savedInstanceState)
         mapView.getMapAsync(this)
+
+        binding.Bcourse.setOnClickListener{
+            val intent = Intent(this, CourseActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.Bdiary.setOnClickListener{
+            val intent = Intent(this, DiaryActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }

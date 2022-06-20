@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.core.os.bundleOf
-import com.example.bico.databinding.ActivityMainBinding
 import com.example.bico.databinding.ActivityStartBinding
 
 class StartActivity : AppCompatActivity() {
@@ -27,10 +26,6 @@ class StartActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.MyBico.setOnClickListener{
-            var intent = Intent(this, MyBicoActivity::class.java)
-            startActivity(intent)
-        }
         binding.diary.setOnClickListener{
             var intent = Intent(this, DiaryActivity::class.java)
             startActivity(intent)

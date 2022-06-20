@@ -7,24 +7,24 @@
     android:layout_height="match_parent"
     android:background="#ACDCC8"
     tools:context=".DiaryActivity">
-<!--    <androidx.appcompat.widget.Toolbar-->
-<!--        android:id="@+id/toolbar"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:elevation="5dp"-->
-<!--        android:background="@color/white"-->
-<!--        >-->
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="BICO"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textSize="20dp"/>-->
-<!--        <ImageView-->
-<!--            android:layout_width="30dp"-->
-<!--            android:layout_height="30dp"-->
-<!--            android:src="@drawable/leaf" />-->
-<!--    </androidx.appcompat.widget.Toolbar>-->
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:elevation="5dp"-->
+    <!--        android:background="@color/white"-->
+    <!--        >-->
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="BICO"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20dp"/>-->
+    <!--        <ImageView-->
+    <!--            android:layout_width="30dp"-->
+    <!--            android:layout_height="30dp"-->
+    <!--            android:src="@drawable/leaf" />-->
+    <!--    </androidx.appcompat.widget.Toolbar>-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/diaryRecycleView"
@@ -44,16 +44,54 @@
         app:fabSize="normal"
         app:rippleColor="@color/white" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        app:itemTextColor="@color/black"
-        android:id="@+id/bottomNavi"
-        android:background="#FFF"
-        app:labelVisibilityMode="labeled"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        app:itemTextColor="@color/black"-->
+<!--        android:id="@+id/bottomNavi"-->
+<!--        android:background="#FFF"-->
+<!--        app:labelVisibilityMode="labeled"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        app:menu="@menu/bottombar"></com.google.android.material.bottomnavigation.BottomNavigationView>-->
+    <RelativeLayout
         android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        app:menu="@menu/bottombar"></com.google.android.material.bottomnavigation.BottomNavigationView>
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@color/white">
+        </ImageView>
+
+        <ImageView
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/Blocation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/road2" />
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/Bcourse"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/bicycle2" />
+        <ImageView
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/Bdiary"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/diary2" />
+
+    </RelativeLayout>
 
 
 </RelativeLayout>
