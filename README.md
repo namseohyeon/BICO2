@@ -1,9 +1,9 @@
-# BICO (모바일 앱 프로그래밍 기말 프로젝트)
+# BICO 
 ## 프로젝트 정보
 ### 1) 작품 개발 환경
-개발환경(IDE) : Visual Studio code (VS code)
-기술스택 : HTML, CSS, JavaScript, Django
-형상관리 : Jira, GitHub, Discord
+개발환경(IDE) : Visual Studio code (VS code)<br>
+기술스택 : HTML, CSS, JavaScript, Django<br>
+형상관리 : Jira, GitHub, Discord<br>
 
 <img width="593" alt="image" src="https://user-images.githubusercontent.com/64974683/221754053-54dd1548-b487-4c6d-a99b-cc5242b83cb8.png">
 <img width="593" alt="image" src="https://user-images.githubusercontent.com/64974683/221754236-13cf214e-f4a9-4072-8efb-9aab458752e4.png">
