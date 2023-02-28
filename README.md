@@ -1,6 +1,5 @@
 # BICO (모바일 앱 프로그래밍 기말 프로젝트)
 ## 프로젝트 정보
-<hr>
 ### 1) 작품 개발 환경
 개발환경(IDE) : Visual Studio code (VS code)
 기술스택 : HTML, CSS, JavaScript, Django
