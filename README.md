@@ -1,6 +1,14 @@
 # BICO (모바일 앱 프로그래밍 기말 프로젝트)
-## 탄소 절감을 위한 자전거 라이딩 기록 앱
-기획의도: 화석연료로 인한 탄소배출 등으로 인해 전 세계적으로 환경이 오염되고 있는 현 상황에서 탄소 배출을 줄여 환경을 보호하자는 의도에서 기획
-앱 서비스 설명: 자전거 도로, 자전거 대여소 등의 자전거에 대한 정보를 제공해 자전거 사용을 권유하여 탄소 배출을 줄이는 환경 보호 앱
-자전거를 타면서 촬영한 사진을 기록하여 사용자들에게 즐거움을 제공함
+## 프로젝트 정보
+<hr>
+### 1) 작품 개발 환경
+개발환경(IDE) : Visual Studio code (VS code)
+기술스택 : HTML, CSS, JavaScript, Django
+형상관리 : Jira, GitHub, Discord
 
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/64974683/221754053-54dd1548-b487-4c6d-a99b-cc5242b83cb8.png">
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/64974683/221754236-13cf214e-f4a9-4072-8efb-9aab458752e4.png">
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/64974683/221754280-97b5fba9-5dcb-458f-ba72-6e14864fb859.png">
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/64974683/221754321-7b6e3225-2edd-4386-80c4-ac006927897b.png">
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/64974683/221754348-f0d1b80d-2fd9-4660-8c71-7149e35009d7.png">
+<img width="594" alt="image" src="https://user-images.githubusercontent.com/64974683/221754388-ceee97c0-48dd-4e8e-8495-43d0cf439027.png">
